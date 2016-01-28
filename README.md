@@ -274,3 +274,5 @@ DynamicAPK已经在携程旅行Android App中使用，欢迎关注携程移动�
 - $ cd DynamicAPK/
 - $ gradle assembleRelease bundleRelease repackAll
 - Release APK in /build-outputs/***-release-final.apk
+- 
+按照上述命令打包，打包后的***-release-final.apk中已经把两个插件包含进去了，在assets\baseres中有两个.so 这就是完成的插件
